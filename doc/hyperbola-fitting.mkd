@@ -1,0 +1,28 @@
+# Fitting a Hyperbola to Data
+
+---
+title: Fitting a Hyperbola to Data
+author: Mark J. Jensen
+date: 13 MAR 2021
+...
+
+## Introduction
+
+The hyperbola comes in two types, one that opens left and right and the second that opens upward and downward. 
+
+### Form 1: Left and Right Opening Hyperbola
+
+The stardard form of a left and right opening hyperbola is:
+
+$$ \frac{\left( x-h \right)^2}{a^2} - \frac{\left( y-k \right)^2}{b^2} = 1 $$
+
+where $x$ is the corridinate along the abscissa,
+$h$ is the horizonal center of the hyperbola,
+$a$ is the horizonal scale factor,
+$y$ is the corrdinate along the ordinate,
+$k$ is the vertical center of the hyperbola, and
+$b$ is the vertical scale factor.
+
+**Note:** The vertical term is subtracted from the horizonal term.
+
+### 
