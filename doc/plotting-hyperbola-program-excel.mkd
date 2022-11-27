@@ -1,0 +1,63 @@
+# Plotting Hyperbola with Code and Excel
+
+---
+title: Plotting Hyperbola with Code and Excel
+author: Mark J. Jensen
+date: 2021-09-24
+...
+
+## Introduction
+
+## Types of Hyperbolas
+
+There are two types of hyperbolas:
+
+Horizontal Opening:
+:  Open to the left and right
+
+Vertical Opening:
+:  Open upward and downward
+  
+>A number of parameters … have been defined by convention. We will use Greek letters to denote them, and Roman letters to denote experimental estimates of them [@bevingtonDataReductionError1969, 11].
+
+### Horizontal Opening Hyperbola
+
+The standard form of left and right opening hyperbola is:
+$$ \frac{\left( x-\eta \right)^2}{\alpha^2} - \frac{\left( y-\kappa \right)^2}{\beta^2} = 1 $$
+
+where
+
+* x is the coordinate along the abscissa
+* $\eta$ is the horizontal center of the hyperbola
+* $\alpha$ is the horizontal scale factor
+* y is the coordinate along the ordinate
+* $\kappa$ is the vertical center of the hyperbola
+* $\beta$ is the vertical scale factor
+
+**Note:** The vertical term is subtracted from the horizontal term.
+
+### Vertical Opening Hyperbola
+
+The standard form of an upward and downward opening hyperbola is:
+
+$$\frac{\left( y-\kappa \right)^2}{\beta^2} - \frac{\left( x-\eta \right)^2}{\alpha^2} = 1 $$
+
+where
+
+* x is the coordinate along the abscissa
+* $\eta$ is the horizontal center of the hyperbola
+* $\alpha$ is the horizontal scale factor
+* y is the coordinate along the ordinate
+* $\kappa$ is the vertical center of the hyperbola
+* $\beta$ is the vertical scale factor
+
+**Note:** The horizontal term is subtracted from the vertical term.
+
+**Warning:** In this treatise, we have assumed a fixed and known coordinate system. You may encounter problems with an unknown orientation to the coordinate system. The fitting will involve determining an angle $\theta$ as well as the other four unknowns.
+
+\newpage
+
+## Bibliography
+
+::: {#refs}
+:::

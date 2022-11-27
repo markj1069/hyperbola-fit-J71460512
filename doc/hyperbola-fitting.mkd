@@ -1,12 +1,19 @@
-# Fitting a Hyperbola to Data
+# Fitting Data to a Hyperbola
 
 ---
-title: Fitting a Hyperbola to Data
+title: Fitting Data to a Hyperbola
 author: Mark J. Jensen
 date: 13 MAR 2021
 ...
 
 ## Introduction
+
+Weisstein [@weissteinHyperbola2021] presents a formal defination of a hyperbola. Gates [@gatesConicSections2018] perhaps provide a more graphic and intutive defination as one of four conic sections. The hyperbola is the conic section that cuts through the cone at a steeper angle than the cone angle.
+
+![Four possible conic sections.](file:///d/3-orig/WikiC-20050218-Conic-Section](https://upload.wikimedia.org/wikipedia/commons/4/48/Conic_sections_2.png){#fig:conic-sections}
+
+
+is a conic section
 
 The hyperbola comes in two types, one that opens left and right and the second that opens upward and downward. 
 
@@ -25,4 +32,45 @@ $b$ is the vertical scale factor.
 
 **Note:** The vertical term is subtracted from the horizonal term.
 
-### 
+### Form 2: Upward and Downward Opening Hyperbola
+
+The stardard form of a upward and downward opening hyperbola is:
+
+$$ \frac{\left( y-k \right)^2}{b^2} - \frac{\left( x-h \right)^2}{a^2} = 1 $$
+
+where $x$ is the corridinate along the abscissa,
+$h$ is the horizonal center of the hyperbola,
+$a$ is the horizonal scale factor,
+$y$ is the corrdinate along the ordinate,
+$k$ is the vertical center of the hyperbola, and
+$b$ is the vertical scale factor.
+
+**Note:** The horizonal term is subtracted from the vertical term.
+
+$$ \frac{\left( x \right)^2}{a^2} - \frac{\left( y \right)^2}{b^2} = 1 $$
+
+$$ - \frac{\left( y \right)^2}{b^2} = 1 -
+ \frac{\left( x \right)^2}{a^2}$$
+
+$$ y^2 = - b^2 + \frac{b^2}{a^2} x^2 $$
+
+Let
+
+$$ t = y^2 $$
+
+$$ s = x^2 $$
+
+$$ \alpha = - \left( b^2 \right) $$
+
+$$ \beta = \frac{b^2}{a^2} $$
+
+
+$$ t = \alpha + \beta s$$
+
+and
+
+$$ b = \sqrt{- \alpha} $$
+
+
+
+$$ a = \sqrt{\frac{-\alpha}{\beta}} $$
